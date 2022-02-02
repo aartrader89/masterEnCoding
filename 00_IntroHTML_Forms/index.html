@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <form action="contacto.html" method="get">
+        <label for="nombre">Ingresa tu nombre</label>
+        <input type="text" name="nombre" id="nombre" />
+            <br>
+        <label for="edad">Ingresa tu edad</label>
+        <input type="number" name="edad" id="edad" />
+            <br>
+        <label for="email">Ingresa tu email</label>
+        <input type="email" name="email" id="email" />
+            <br>
+        <label for="mensaje">Ingresa tu mensaje</label>
+        <textarea name="mensaje" id="mensaje">Escribe aquí tu mensaje...</textarea>
+            <br>
+        <select name="cursos" id="cursos">
+            <option value="Master en Coding">Master en Coding</option>
+            <option value="Master en Frontend">Master en Frontend</option>
+            <option value="Master en Backend">Master en Backend</option>
+        </select>
+            <br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
