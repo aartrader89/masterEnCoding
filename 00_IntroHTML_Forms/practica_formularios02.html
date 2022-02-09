@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contacto</title>
+    <style>
+        body {
+            background-color: chocolate;
+            color: cornsilk;
+        }
+        label, p, h1 {
+            color: darkblue;
+        }
+        label[for="edad"]{
+            color: rgb(227, 231, 221);
+        }
+        .demoLink:hover {
+            color: rgb(253, 253, 253);
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulario de contacto</h1>
+    <a class="demoLink" href="#">Voy a ir a la misma página</a>
+    <form action="contacto.html" method="get">
+        <p>Favor de capturar los siguientes datos, después, presiona el botón "Enviar"</p>
+
+        <label for="nombre">Nombre: </label>
+        <input type="text" name="nombre" id="nombre" />
+            <br>
+        <label for="apellido">Apellido: </label>
+        <input type="text" name="apellido" id="apellido" />
+            <br>
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" />
+            <br>
+        <label for="edad">Edad: </label>
+        <input type="number" name="edad" id="edad" />
+            <br>
+        <p>Género: </p>
+        <label for="masculino">Masculino: </label>
+        <input type="radio" name="genero" id="masculino" />
+        <label for="femenino">Femenino: </label>
+        <input type="radio" name="genero" id="femenino" />
+        <label for="otro">Otro: </label>
+        <input type="radio" name="genero" id="otro" />
+            <br>
+        <label for="password">Password: </label>
+        <input type="password" name="password" id="password" />
+            <br>
+        <p>Módulo actual: </p>
+        <select>
+            <option value="Módulo 01">Módulo 01</option>
+            <option value="Módulo 02">Módulo 02</option>
+            <option value="Módulo 03">Módulo 03</option>
+        </select>
+            <br>
+        <label for="color">Selecciona tu color favorito: </label>
+        <input type="color" name="color" id="color" />
+            <br>
+        <label for="compartirDatos">Acepto compartir mis datos personales</label>
+        <input type="checkbox" name="compartirDatos" id="compartirDatos">
+            <br>
+        <label for="entendido">Acepto que entendí al 100% esta práctica</label>
+        <input type="checkbox" name="entendido" id="entendido">
+            <br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

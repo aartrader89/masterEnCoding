@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+}
+header img{
+    width: 360px;
+}
+nav {
+    background-color: #C72D82;
+    text-align: center;
+    padding: 16px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+h2 {
+    color: #41A4DD;
+}
+article img {
+    width: 240px;
+}
+article button {
+    background-color: #41A4DD;
+    color: white;
+    border-color: #41A4DD;
+    border-radius: 2px;
+    padding: 4px 16px;
+    font-weight: bold;
+}
+aside a {
+    color: #41A4DD;
+    text-decoration: none;
+}
+aside ul {
+    list-style-type: none;
+    padding-left: 8px;
+}
+footer > section {
+    background-color: #C72D82;
+}
+footer > div {
+    background-color: #9C2467;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    font-size: 12px;
+}
+.images {
+    float: left;
+}
+.posts {
+    float: left;
+    width: 80%;
+    max-width: 80%;
+}
+.blog-post {
+    float: left;
+}
+.nosotros {
+    float: left;
+    width: 50%;
+    max-width: 50%;
+}
+.menu-navegacion {
+    float: right;
+    width: 50%;
+    max-width: 50%;
+}
+.overflow {
+    overflow: auto;
+}
+.menu-lateral {
+    float: right;
+    width: 20%;
+}
+.main {
+    overflow: auto;
+}
