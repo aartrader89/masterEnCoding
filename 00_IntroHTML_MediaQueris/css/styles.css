@@ -1,0 +1,37 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: blue;
+}
+
+/* Desktop First */
+
+/* Laptop */
+@media screen and (max-width: 1000px){
+    body {
+        background-color: coral;
+    }
+    h1 {
+        display: none;
+    }
+}
+
+/* Tablet */
+@media screen and (max-width: 700px) {
+    body {
+        background-color: darkgreen;
+    }
+    h1 {
+        display: block;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 400px) {
+    body {
+        background-color: purple;
+    }
+}

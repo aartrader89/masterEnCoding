@@ -1,0 +1,22 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: chocolate;
+}
+
+/* Acomodo inicial - Mobile First */
+
+/* Imágenes en columnas */
+
+.img {
+    display: block;
+    width: 100%;
+}
+
+/* Tablet */
+@media screen and (min-width:401px) {
+        
+}
