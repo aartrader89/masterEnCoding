@@ -16,7 +16,18 @@ body {
     width: 100%;
 }
 
-/* Tablet */
+/* Mobile */
 @media screen and (min-width:401px) {
-        
+        .img {
+            display: inline;
+            width: 49%;
+        }
+}
+
+/* Tablet */
+@media screen and (min-width:701px) {
+    .img {
+        display: inline;
+        width: 24.5%;
+    }
 }
